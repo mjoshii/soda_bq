@@ -1,0 +1,12 @@
+checks for prs_candidate_rpo_dflt_ca_kerry:
+  - row_count > 0
+  - missing_count(cand_id) = 0
+  - missing_count(req_id) = 0
+  - missing_count(activity_status_date) = 0
+  - duplicate_count(cand_id) = 0
+checks for prs_requisition_rpo_dflt_ca_kerry:
+  - row_count > 0
+  - missing_count(currency) = 0
+  - missing_count(req_id) = 0
+  - missing_count(activity_status_date) = 0
+  - duplicate_count(req_id) = 0
